@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500;600;700bubbly-buttondisplay=swap');
+
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    opacity: 1;
+    font-family: 'Edu SA Beginner', cursive;
+} 
+
+.container {
+   
+    background-color: rgba(231, 220, 220, 0.475);
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid black;
+    box-shadow:  0 8px 8px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    text-align: center;
+}
+
+h1{
+ font-weight: 700;
+ font-size: 2.8rem;
+}
+
+h3{
+ font-weight: 400;
+ font-size: 2rem;
+}
+
+p{
+   font-weight: 300;
+   font-size: 1.5rem;
+}
+
+
+
+ 
+button{
+    margin:auto;
+    padding:7px 20px;
+    background:transparent;
+    color:#3e2700;
+    border:1px solid #382700;
+    box-shadow: 0 0 5px #fffae9;
+    border-radius:2rem;
+    width:40%;
+    display: block;
+    font-size:25px;
+    font-weight: 500;
+}
+button:hover{
+    background:linear-gradient(90deg,rgb(233, 183, 83),rgb(154, 93, 1),rgb(128, 75, 0));
+    color:#262626;
+    box-shadow: 0 0 15px rgb(197, 135, 34);
+    transition:0.8s;
+    -webkit-transition:0.8s;
+}
+
+ 

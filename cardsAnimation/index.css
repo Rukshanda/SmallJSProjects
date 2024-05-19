@@ -1,0 +1,90 @@
+
+  
+  
+ 
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Yusei Magic', sans-serif;
+
+}
+ 
+ 
+ 
+.container {
+    display: flex;
+    width: 70vw;
+}
+
+.item {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50px;
+    color: #fff;
+    /*  */
+    flex: 1.2;
+    cursor: pointer;
+    height: 80vh;
+    position: relative;
+    margin: 10px;
+    /*  */
+    transition: flex 0.7s cubic-bezier(0.05, 0.6, 0.4, 0.9);
+}
+
+ 
+ .active {
+    /*  */
+    flex: 8;
+    border-radius: 50px !important;
+  
+}
+ 
+  
+  
+.img-1{
+    background-image: url("https://images.unsplash.com/photo-1602684154647-eb1e2a9fd92e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+   }
+   .img-2{
+     background-image : url("https://images.unsplash.com/photo-1599044368810-238581bb322b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=757&q=80")
+   }
+   .img-3{
+     background-image : url("https://images.unsplash.com/photo-1534617580102-6342ca2bfd48?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxvb2tpbmclMjBmb3J3YXJkfGVufDB8fDB8fHww&w=1000&q=80")
+   }
+   .img-4{
+     background-image : url("https://images.unsplash.com/photo-1603199940369-5617bc610f83?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=667&q=80")
+   }
+   .img-5{
+    background-image: url("https://images.unsplash.com/photo-1586022045497-31fcf76fa6cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGhpa2luZ3xlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+   }
+   .img-6{
+    background-image: url("https://i.pinimg.com/236x/b5/48/57/b548575e61a92a04a29d8bbc115ca266.jpg");
+   }
+ 
+
+@media screen and (max-width: 480px) {
+    .container {
+      width: 100vw;
+    }
+    
+    .panel:nth-of-type(4) {
+      display: none;
+    }
+    
+    .panel:nth-of-type(5) {
+      display: none;
+    }
+  }

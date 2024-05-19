@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div> 
+   
+    <div class="container">
+      <h4> Tip Calculator </h4>
+       <div class="top">
+      <div class="bill-amount"> 
+      <p class="bill-amount--text">
+        Bill Amount $
+      </p>
+       <input type="text" id = "billAmount">
+     </div>
+    <div class="tip-amount"> 
+      <p class="tip-amount--text">
+        Tip %
+      </p>
+       <input type="number" id = "tipAmount">
+     </div>
+    <div class="people"> 
+      <p class="people-text">
+        Split the bill?  
+        <span><i>(numbe of people)</i></span>
+      </p>
+       <input type="text" id = "people">
+     </div>
+  </div>
+    
+    
+    <div class="middel">
+      <button onclick= "clearInput()">
+        clear
+      </button>
+      <button id="calculate">
+        calculate
+      </button>
+  </div>
+     
+    <div class="answer">
+       <h5>ANSWER</h5>
+        <p>Tip Total:   &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp; <span id="tipMoney"> $ 0.00 </span> </p> 
+         <p>Total(Bill + Tip) &nbsp;  &nbsp; <span id="totalMoney"> $ 0.00 </span> </p>
+   </div>
+   
+    </div>
+    
+    
+    </div>
+   
+   
+    <script src="./index.js"></script> 
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{margin : 0; 
+  padding : 0;}
+ 
+body {
+  background-image : url('https://img.freepik.com/free-vector/gradient-blue-dynamic-lines-background_23-2148995926.jpg');
+  background-repeat : no-repeat;
+  background-size : cover;
+  width : 100vw;
+  height : 100vh;
+}
+
+.container { 
+  background-color: #79f8fc;
+  font-family: 'Pacifico', cursive;
+  border: 5px solid;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 60px 30px 60px;
+  color : #005e61;
+ }
+
+ 
+h4 {
+  font-size : 2rem;
+  padding-bottom : 30px;
+}
+
+.answer { 
+  border : 5px solid #023b3a;
+  margin-top : 15px;
+  padding : 20px;
+ }
+
+h5{
+  padding-bottom : 15px;
+  font-size : 18px;
+}
+
+p { 
+font-size : 1.3rem;
+  padding-top : 12px;
+  padding-bottom : 5px;
+}
+
+input {
+  padding : 8px;
+  border : solid 2px #00121c;
+  color : #00121c;
+  -webkit-appearance: none;
+  outline : none;
+  font-size : 17px;
+}
+
+
+button {
+  background-color: #02ad9f;
+  padding : 5px 10px 5px 10px;
+  margin : 15px 0px 5px 0px;
+  border : none;
+  font-size : 16px;
+  color : #e9f7f6;
+}
